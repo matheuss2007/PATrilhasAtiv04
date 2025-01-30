@@ -1,0 +1,44 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("voce e membro inativo de um clube?");
+			string resposta =  (Console.ReadLine().ToLower());
+			 
+			 
+			  
+			  
+			  
+			  
+
+			    if ( resposta == "sim" )
+        {
+			    	
+           
+		Console.WriteLine("Por favor, atualize sua inscrição para continuar usufruindo dos benefícios do clube.");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("obrigado ");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
