@@ -1,0 +1,44 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("digite uma palavra");
+			string resposta =  (Console.ReadLine().ToLower());
+			 
+			 
+			  
+			  
+			  
+			  
+
+			    if ( resposta != "" )
+        {
+			    	
+           
+		Console.WriteLine("a palavra nao e vazia.");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("a palavra e vazia ");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
