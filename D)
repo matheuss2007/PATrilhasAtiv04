@@ -1,0 +1,45 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("voce e assinante da Netfllix?:");
+			 string assinante = (Console.ReadLine());
+			 
+			 Console.WriteLine("voce ja assistiu Breaking Bead? :");
+			 string assistiu = (Console.ReadLine());
+			  
+			  
+			  
+			  
+
+			    if (assinante == "sim" || assistiu == "sim" )
+        {
+			    	
+           
+		Console.WriteLine("Otimo, você pode assistir à nova temporada!");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("infelizmente voce nao e pode asistir a nova temporada");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
