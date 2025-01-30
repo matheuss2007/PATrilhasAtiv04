@@ -1,0 +1,44 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("voce voce posssui diploma de ensino superior?:");
+			 string diploma = (Console.ReadLine());
+			 
+			 Console.WriteLine("voce tem mais de 21? :");
+			 string idade = (Console.ReadLine());
+			  
+			  
+			  
+			  
+
+			    if (diploma == "sim" || idade == "sim" )
+        {
+			    	
+           
+		Console.WriteLine("Parabéns, você está qualificado para a vaga!");
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("infelizmente voce nao e qualificado para a vaga");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
