@@ -1,0 +1,44 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("voce deseja cancela a operacao?");
+			string resposta =  (Console.ReadLine().ToLower());
+			 
+			 
+			  
+			  
+			  
+			  
+
+			    if ( resposta == "nao" )
+        {
+			    	
+           
+		Console.WriteLine("por favor, confirme o cancelamento da operação");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine(" operação cancelada ");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
