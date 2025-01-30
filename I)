@@ -1,0 +1,44 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("digite seu nome:");
+			 string nome = (Console.ReadLine().ToLower());
+			 
+			 
+			  
+			  
+			  
+			  
+
+			    if ( nome == "wilson" || nome == "gloria" )
+        {
+			    	
+           
+		Console.WriteLine(" Olá, bem vindo de volta");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine(" nome nao reconhecido ");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
