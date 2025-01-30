@@ -1,1 +1,37 @@
-a
+using System;
+
+namespace atv4
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			
+			Console.WriteLine("Qual a sua idade?");
+			 int idade = Convert.ToInt32(Console.ReadLine());
+			
+			
+			Console.WriteLine("Você possui carteira de motorista?");
+			string carta = (Console.ReadLine());
+			
+			if (idade >= 18 || carta == "sim")
+			{
+				Console.WriteLine("Você pode dirigir!");
+
+			}
+			
+			else
+			{
+				Console.WriteLine("você não pode dirigir!");
+			
+			}
+			
+	
+				
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
