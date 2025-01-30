@@ -1,0 +1,45 @@
+using System;
+
+namespace atv3
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			 
+			 
+			 Console.WriteLine("voce que adicionar leite no seu café:");
+			 string leite = (Console.ReadLine().ToLower());
+			 
+			 Console.WriteLine(" voce que adicionar açucar no seu café:");
+			 string acucar = (Console.ReadLine().ToLower());
+			  
+			  
+			  
+			  
+
+			    if (leite == "sim" || acucar == "sim" )
+        {
+			    	
+           
+		Console.WriteLine("Café com adicional preparado");
+		
+			    	
+        }
+			    
+			    
+        else
+        	
+        {
+        	
+          
+        	Console.WriteLine("seu cafe esta puro");
+        }
+        
+        Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+           	
+		}
+	}
+}
